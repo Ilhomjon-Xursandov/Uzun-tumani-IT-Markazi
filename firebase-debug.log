@@ -1,0 +1,115 @@
+[debug] [2024-11-15T10:33:30.118Z] ----------------------------------------------------------------------
+[debug] [2024-11-15T10:33:30.121Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-15T10:33:30.122Z] CLI Version:   13.25.0
+[debug] [2024-11-15T10:33:30.122Z] Platform:      win32
+[debug] [2024-11-15T10:33:30.122Z] Node Version:  v22.11.0
+[debug] [2024-11-15T10:33:30.122Z] Time:          Fri Nov 15 2024 15:33:30 GMT+0500 (Узбекистан, стандартное время)
+[debug] [2024-11-15T10:33:30.122Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-15T10:33:30.169Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-15T10:33:30.169Z] > authorizing via signed-in user (mrdeviceuzb@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\Desktop\Uzun_IT-markaz-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-15T10:35:15.654Z] Using project from CLI flag: uzun-it-markazi
+[debug] [2024-11-15T10:35:15.655Z] Checked if tokens are valid: true, expires at: 1731670365767
+[debug] [2024-11-15T10:35:15.655Z] Checked if tokens are valid: true, expires at: 1731670365767
+[debug] [2024-11-15T10:35:15.657Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/uzun-it-markazi [none]
+[debug] [2024-11-15T10:35:20.810Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/uzun-it-markazi 403
+[debug] [2024-11-15T10:35:20.810Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/uzun-it-markazi {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-11-15T10:35:20.810Z] Request to https://firebase.googleapis.com/v1beta1/projects/uzun-it-markazi had HTTP Error: 403, The caller does not have permission
+[debug] [2024-11-15T10:35:21.114Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/uzun-it-markazi had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project uzun-it-markazi. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-11-15T10:35:34.354Z] ----------------------------------------------------------------------
+[debug] [2024-11-15T10:35:34.356Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-15T10:35:34.357Z] CLI Version:   13.25.0
+[debug] [2024-11-15T10:35:34.357Z] Platform:      win32
+[debug] [2024-11-15T10:35:34.357Z] Node Version:  v22.11.0
+[debug] [2024-11-15T10:35:34.357Z] Time:          Fri Nov 15 2024 15:35:34 GMT+0500 (Узбекистан, стандартное время)
+[debug] [2024-11-15T10:35:34.357Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-15T10:35:34.406Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-15T10:35:34.406Z] > authorizing via signed-in user (mrdeviceuzb@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\Desktop\Uzun_IT-markaz-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-15T10:35:42.493Z] Using project from CLI flag: uzun-it-markazi
+[debug] [2024-11-15T10:35:42.493Z] Checked if tokens are valid: true, expires at: 1731670365767
+[debug] [2024-11-15T10:35:42.493Z] Checked if tokens are valid: true, expires at: 1731670365767
+[debug] [2024-11-15T10:35:42.495Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/uzun-it-markazi [none]
+[debug] [2024-11-15T10:35:43.012Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/uzun-it-markazi 403
+[debug] [2024-11-15T10:35:43.013Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/uzun-it-markazi {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-11-15T10:35:43.013Z] Request to https://firebase.googleapis.com/v1beta1/projects/uzun-it-markazi had HTTP Error: 403, The caller does not have permission
+[debug] [2024-11-15T10:35:43.288Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/uzun-it-markazi had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project uzun-it-markazi. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-11-15T10:37:55.220Z] ----------------------------------------------------------------------
+[debug] [2024-11-15T10:37:55.223Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-15T10:37:55.224Z] CLI Version:   13.25.0
+[debug] [2024-11-15T10:37:55.224Z] Platform:      win32
+[debug] [2024-11-15T10:37:55.224Z] Node Version:  v22.11.0
+[debug] [2024-11-15T10:37:55.224Z] Time:          Fri Nov 15 2024 15:37:55 GMT+0500 (Узбекистан, стандартное время)
+[debug] [2024-11-15T10:37:55.224Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-15T10:37:55.283Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-15T10:37:55.283Z] > authorizing via signed-in user (mrdeviceuzb@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\Desktop\Uzun_IT-markaz-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

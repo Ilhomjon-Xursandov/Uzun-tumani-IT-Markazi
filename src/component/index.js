@@ -1,0 +1,8 @@
+export {default as Navbar } from './navbar'
+export {default as Home } from './home'
+export {default as Statistics } from './statistics'
+export {default as Contract } from './contract'
+export {default as TeacherCard } from './teacherCard'
+export {default as About } from './client'
+export {default as Footer } from './footer'
+export {default as AddComent } from './addComent'
