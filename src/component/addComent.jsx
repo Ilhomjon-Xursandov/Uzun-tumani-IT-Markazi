@@ -13,7 +13,7 @@ const AddComent = () => {
   }
 
   return (
-    <div className="my-16 flex justify-between max-pl:flex-col items-start pl:gap-20 gap-0">
+    <div className="my-16 flex justify-between pl:flex-row flex-col items-start pl:gap-20 gap-0">
         <form className="flex justify-start items-start flex-col gap-3 pl:w-1/2 w-full">
               <input value={inpValue} onChange={(e) => setInpValue(e.target.value)} type="text" placeholder="Ismingizni kiriting" className="px-4 py-2 rounded-lg pl:w-1/2 w-full capitalize outline-none border-none font-semibold focus:outline-blue-900 focus:shadow-blue-700 shadow-md" />
               <textarea value={textValue} onChange={(e) => setTextValue(e.target.value)} rows={8} cols={20} placeholder="Fikringizni bildiring" className="px-4 py-2 rounded-lg w-full capitalize outline-none border-none font-semibold focus:outline-blue-900 focus:shadow-blue-700 shadow-lg"></textarea>

@@ -1,7 +1,7 @@
 import img from './images-removebg-preview.png'
 
 export const logo = img
-export const homeImg = "https://it-park.uz/storage/images/news/normal/AyAlrDTgZ5INPW3UVhTz4mlKyqcFfRpWz0DkQEwC.jpeg"
+export const homeImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRHOOPtBXWcu5txYNC3pBseb532u7E2qXUdA&s"
 export const contractImg = "https://images.mktw.net/im-766490?width=1260&height=840"
 export const aboutImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqbsZa9xIFifr7PQq0bCBkydML4vfcsPW9SA&s"
 

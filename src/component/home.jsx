@@ -6,7 +6,7 @@ const Home = () => {
     <section id="home" className="flex pl:flex-row flex-col justify-between items-center py-10 pt-[120px]">
         {/* Animation Image */}
         <div className="pl:my-10 relative">
-            <img src={homeImg} className="pl:ml-24 ml-8 pl:w-[70vw] w-[80vw] pl:mb-0 mb-[10vh] h-[55vh] pl:right-28 right-6 relative rounded-lg" alt="" />
+            <img src={homeImg} className="pl:ml-24 ml-8 pl:w-[70vw] w-[80vw] pl:mb-0 mb-[10vh] h-[40vh] pl:right-28 right-6 relative rounded-lg" alt="" />
         </div>
         {/* Information */}
         <div className="w-full mx-28 px-18 relative">

@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "uzun-it-markazi"
-  }
+    "default": "uzun-it-markazi",
+    "yes": "uzun-tumani-it-markazi"
+  },
+  "targets": {},
+  "etags": {}
 }
